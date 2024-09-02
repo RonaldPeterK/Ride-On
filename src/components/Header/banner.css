@@ -1,0 +1,13 @@
+.banner
+{
+    background-image: url('./../RideON/assets/Home/img-1.jpg');
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    object-fit: cover;
+}

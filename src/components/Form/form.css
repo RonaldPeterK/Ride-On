@@ -1,0 +1,19 @@
+.tabs
+{
+    padding: 0 !important;
+    text-align: center;
+}
+.nav-link
+{
+    color: white !important;
+    border-radius: 0 !important;
+    padding: 1rem 0 !important;
+    font-size: 1.1rem !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #CC4452 !important;
+}
+.form-label
+{
+    font-size: 0.9rem !important;
+}

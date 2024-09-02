@@ -1,0 +1,49 @@
+
+.ant-card-body
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.rate
+{
+    margin-top: -1.5rem;
+}
+.line1
+{
+    display: block;
+    width: 60px;
+    margin: 1.5rem 0;
+    border-bottom: 3px solid #cb4452;
+}
+ul
+{
+    list-style-type: none;
+}
+li
+{
+    margin: 0.2rem 0;
+}
+ul li i
+{
+    color: #cb4452;
+    margin-right: 0.5rem;
+}
+.slick-prev
+{
+    position: absolute !important;
+    top: -42% !important;
+    left: 92% !important;
+    padding: 1rem !important;
+    background-color: #cb4452 !important;
+    color: black !important;
+}
+.slick-next
+{
+    position: absolute !important;
+    top: -42% !important;
+    right: 0rem !important;
+    padding: 1rem !important;
+    background-color: #cb4452 !important;
+    color: black !important;
+}

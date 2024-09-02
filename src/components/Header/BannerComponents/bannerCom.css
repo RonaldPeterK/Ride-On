@@ -1,0 +1,17 @@
+.bannerCom
+{
+    background-image: url('./../../RideON/assets/other/img-1.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+    object-fit: cover;
+}
+ol 
+{
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 0.7rem !important;
+}

@@ -1,0 +1,6 @@
+.line
+{
+    display: inline-block;
+    width: 100px;
+    border-bottom: 3px solid #cb4452;
+}

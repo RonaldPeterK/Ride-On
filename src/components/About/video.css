@@ -1,0 +1,17 @@
+.video-react-fluid
+{
+    width: 100% !important;
+    height: 74% !important;
+}
+.video-react-button
+{
+    border-radius: 50% !important;
+    padding: 0 !important;
+}
+
+.video-react .video-react-big-play-button 
+{
+    height: 3em !important;
+    line-height: 3em !important;
+    font-size: 2.5em !important;
+}

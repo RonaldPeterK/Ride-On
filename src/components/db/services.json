@@ -1,0 +1,26 @@
+[
+    {
+        "_id" : "1",
+        "icon" : "fa-light fa-calendar-check",
+        "title" : "Easy Online Booking",
+        "describtion" : "Vestibulum efficitur se sit amet sem semper luctus pellentes auctor tristique ornare. Ut porta ut magna in cursus."
+    },
+    {
+        "_id" : "2",
+        "icon" : "fa-solid fa-star",
+        "title" : "Professional Drivers",
+        "describtion" : "Vestibulum efficitur se sit amet sem semper luctus pellentes auctor tristique ornare. Ut porta ut magna in cursus."
+    },
+    {
+        "_id" : "3",
+        "icon" : "fa-light fa-calendar-check",
+        "title" : "Big Fleet Of Vechicles",
+        "describtion" : "Vestibulum efficitur se sit amet sem semper luctus pellentes auctor tristique ornare. Ut porta ut magna in cursus."
+    },
+    {
+        "_id" : "4",
+        "icon" : "fa-light fa-calendar-check",
+        "title" : "Online Payment",
+        "describtion" : "Vestibulum efficitur se sit amet sem semper luctus pellentes auctor tristique ornare. Ut porta ut magna in cursus."
+    }
+]

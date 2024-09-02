@@ -1,0 +1,25 @@
+.icon
+{
+    height: 100%;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ant-flex
+{
+    align-items: top; 
+}
+.ant-flex-vertical
+{
+    align-items: start !important;
+}
+.icons
+{
+    margin-top: 2.5rem;
+    color: #CC4452;
+    font-size: 2rem;
+    padding: 30px 20px;
+    border: 3px solid #CC4452;
+    
+}
