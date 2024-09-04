@@ -7,10 +7,10 @@ import Details from '../components/Contact/details'
 export default function ContactScreen() {
   return (
     <>
-        <ContactBannerCom/>
-        <Details/>
-        <MapCom/>
-        <Footer/>
+      <ContactBannerCom />
+      <Details />
+      <MapCom />
+      <Footer />
     </>
   )
 }
