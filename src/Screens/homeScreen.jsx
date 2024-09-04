@@ -12,15 +12,15 @@ import Testimonal from "../components/Testimonals/testimonal";
 function Home() {
   return (
     <>
-        <Banner/>
-        <Services/>
-        <FormTabs/>
-        <Card/>
-        <Testimonal/>
-        <AboutPg/>
-        <Adds/>
-        <NewsCard/>
-        <Footer/>
+      <Banner />
+      <Services />
+      <FormTabs />
+      <Card />
+      <Testimonal />
+      <AboutPg />
+      <Adds />
+      <NewsCard />
+      <Footer />
     </>
   )
 }
