@@ -6,9 +6,9 @@ import './navBar.css'
 
 function CollapsibleNav() {
     return (
-        <Container >
+        <Container>
             <Navbar collapseOnSelect expand="lg" data-bs-theme="dark">
-                <Container className='fixed-top bg-dark px-4 px-3' >
+                <Container style={{ position: 'absolute', top: '0' }} className=' bg-dark px-4' >
                     <Navbar.Brand href="/" className='text-danger fs-4 fw-normal'>RideOn</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className='my-3' />
                     <Navbar.Collapse id="responsive-navbar-nav">
@@ -23,9 +23,6 @@ function CollapsibleNav() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <div className="d">
-                <h1>jiiiii</h1>
-            </div>
         </Container>
     );
 }

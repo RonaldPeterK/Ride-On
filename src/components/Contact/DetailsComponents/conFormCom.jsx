@@ -1,40 +1,40 @@
 import React from 'react';
-import { Button, Flex, Form, Input} from 'antd';
+import { Button, Form, Input } from 'antd';
 const ConFormCom = () => {
   const [form] = Form.useForm();
   return (
-    
+
     <Form
       form={form}
       layout="vertical"
-      
+
     >
 
       <Form.Item
-          name="Name"
-          label="Name"
-          rules={[
-            {
-              required: true,
-            },
-          ]}
+        name="Name"
+        label="Name"
+        rules={[
+          {
+            required: true,
+          },
+        ]}
       >
-          <Input size="large" />
+        <Input size="large" />
       </Form.Item>
 
       <Form.Item
-          className='pt-1'
-          name="Email"
-          label="Email"
-          rules={[
-            {
-              required: true,
-            },
-          ]}
+        className='pt-1'
+        name="Email"
+        label="Email"
+        rules={[
+          {
+            required: true,
+          },
+        ]}
       >
-          <Input size="large" />
+        <Input size="large" />
       </Form.Item>
-      
+
       <Form.Item
         className='pt-1'
         name="Subject"
@@ -42,36 +42,32 @@ const ConFormCom = () => {
       >
         <Input size="large" />
       </Form.Item>
-      
+
       <Form.Item
-          className='pt-1'
-          name="Message"
-          label="Message"
-          rules={[
-            {
-              required: true,
-            },
-          ]}
+        className='pt-1'
+        name="Message"
+        label="Message"
+        rules={[
+          {
+            required: true,
+          },
+        ]}
       >
-          <Input.TextArea rows={10} size="large" />
+        <Input.TextArea rows={10} size="large" />
       </Form.Item>
 
       <Form.Item
-          wrapperCol={{
-            offset: 6,
-          }}
+        className='d-flex justify-content-start align-items-center'
       >
-          <Flex gap="large">
-            <Button type="primary" danger htmlType="submit">
-              Submit
-            </Button>
-            <Button danger onClick={() => form.resetFields()}>
-              Reset
-            </Button>
-          </Flex>
+        <Button className='me-3' type="primary" danger htmlType="submit">
+          Submit
+        </Button>
+        <Button danger onClick={() => form.resetFields()}>
+          Reset
+        </Button>
       </Form.Item>
-    
-    </Form>
+
+    </Form >
   );
 };
 export default ConFormCom;
