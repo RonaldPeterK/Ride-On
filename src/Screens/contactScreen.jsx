@@ -6,11 +6,11 @@ import Details from '../components/Contact/details'
 
 export default function ContactScreen() {
   return (
-    <>
+    <div>
       <ContactBannerCom />
       <Details />
       <MapCom />
       <Footer />
-    </>
+    </div>
   )
 }

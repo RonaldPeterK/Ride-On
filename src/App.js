@@ -7,11 +7,11 @@ import CollapsibleNav from './components/Navigation/navBar';
 function App() {
   return (
     <>
-      <CollapsibleNav/>
+      <CollapsibleNav />
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<AboutScreen/>} />
-        <Route path="/contact" element={<ContactScreen/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutScreen />} />
+        <Route path="/contact" element={<ContactScreen />} />
       </Routes>
     </>
   );
